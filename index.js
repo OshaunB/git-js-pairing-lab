@@ -73,3 +73,8 @@ const betweenTwentyAndFourty = (dell1) => {
     }
 }
 // console.log(betweenTwentyAndFourty(30))
+
+const largest = (int1,int2,int3) => {
+    return Math.max(int1,int2,int3)    
+}
+console.log(largest(17,10,72));
