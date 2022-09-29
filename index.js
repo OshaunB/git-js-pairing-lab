@@ -77,4 +77,10 @@ const betweenTwentyAndFourty = (dell1) => {
 const largest = (int1,int2,int3) => {
     return Math.max(int1,int2,int3)    
 }
-console.log(largest(17,10,72));
+// console.log(largest(17,10,72));
+
+const printTime = () => {
+    let hour = new Date()
+    console.log(`${hour.getHours()}:${hour.getMinutes()}:${hour.getSeconds()}`)
+}
+printTime();
