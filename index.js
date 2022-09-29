@@ -11,7 +11,7 @@ const fiveToOneHundred = () => {
 // fiveToOneHundred()
 
 const multiplesOfThree = () => {
-    for (let i = 3; i < 100; i+=3){
+    for (let i = 3; i <= 100; i+=3){
         console.log(i);
     }
 }
@@ -25,4 +25,11 @@ const multiplesOfThreeOrFive = () => {
     }
 }
 
-multiplesOfThreeOrFive();
+// multiplesOfThreeOrFive();
+
+const untilNum = (int) => {
+    for(let i = 1; i <= int; i++){
+        console.log(i);
+    }
+}
+untilNum(7);
