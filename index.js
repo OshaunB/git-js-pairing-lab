@@ -63,4 +63,13 @@ const isNegative = (y1) =>{
 const triangleArea = (b,h) => {
     return 1/2 * (b * h)
 }
-console.log(triangleArea(203,137))
+// console.log(triangleArea(203,137))
+
+const betweenTwentyAndFourty = (dell1) => {
+    if (dell1 < 40 && dell1 > 20){
+        return true
+    }else{
+        return false
+    }
+}
+// console.log(betweenTwentyAndFourty(30))
