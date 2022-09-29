@@ -83,4 +83,14 @@ const printTime = () => {
     let hour = new Date()
     console.log(`${hour.getHours()}:${hour.getMinutes()}:${hour.getSeconds()}`)
 }
-printTime();
+// printTime();
+
+const isLeapYear = (uYear) => {
+    if (uYear%4 === 0 && uYear%100 != 0 || uYear%100 === 0 && uYear%400 === 0){
+        return true
+    }else {
+        return false
+    }
+}
+//this was a fun one to solve - jared & O'Shaun
+console.log(isLeapYear(1900));
