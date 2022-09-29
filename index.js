@@ -39,3 +39,13 @@ const multiply = (n1,n2) => {
 }
 // console.log(multiply(9,2));
 
+const add =  (int1,int2) => {
+    if (int1 === int2){
+        return 3 * (int1 + int1)
+    }else {
+        return int1 + int2
+    }
+}
+
+console.log(add(15,5));
+
