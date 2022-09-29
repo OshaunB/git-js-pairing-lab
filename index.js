@@ -47,5 +47,17 @@ const add =  (int1,int2) => {
     }
 }
 
-console.log(add(15,5));
+// console.log(add(15,5));
+
+const isNegative = (y1) =>{
+    if (y1 < 0){
+        return true;
+    }else if (y1 === 0) {
+        return NaN;
+    }else{
+        return false;
+    }
+}
+// console.log(isNegative(0));
+
 
