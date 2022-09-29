@@ -60,4 +60,7 @@ const isNegative = (y1) =>{
 }
 // console.log(isNegative(0));
 
-
+const triangleArea = (b,h) => {
+    return 1/2 * (b * h)
+}
+console.log(triangleArea(203,137))
