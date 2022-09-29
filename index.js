@@ -32,4 +32,10 @@ const untilNum = (int) => {
         console.log(i);
     }
 }
-untilNum(7);
+// untilNum(7);
+
+const multiply = (n1,n2) => {
+    return n1 * n2;
+}
+// console.log(multiply(9,2));
+
